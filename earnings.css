@@ -1049,16 +1049,16 @@ body._lock {
 
 /*faq*/
 .earnpage-faq {
-  padding: 130px 0 0 0;
+  padding: 130px 0;
 }
 @media (max-width: 992px) {
   .earnpage-faq {
-    padding: 100px 0 0 0;
+    padding: 100px 0;
   }
 }
 @media (max-width: 768px) {
   .earnpage-faq {
-    padding: 80px 0 0 0;
+    padding: 80px 0;
   }
 }
 .earnpage-faq__title {
@@ -1098,21 +1098,6 @@ body._lock {
     width: 18px;
   }
 }
-/*form*/
-.earnpage-form {
-  padding: 130px 0;
-}
-@media (max-width: 992px) {
-  .earnpage-form {
-    padding: 100px 0;
-  }
-}
-@media (max-width: 768px) {
-  .earnpage-form {
-    padding: 80px 0;
-  }
-}
-
 /*pop up*/
 .earnpage-modal__title {
   padding: 0 0 18px 0;
@@ -1170,5 +1155,5 @@ body._lock {
   color: #777e8c;
 }
 .earnpage-modal__submit {
-		background-color: transparent;
+background-color: transparent;
 }
