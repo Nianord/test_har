@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-/*Обнуление*/
 @import "faq.css";
 @import "modal2.css";
+/*Обнуление*/
 * {
   padding: 0;
   margin: 0;
@@ -1164,4 +1164,7 @@ body._lock {
   font-size: 12px;
   font-weight: 700;
   color: #777e8c;
+}
+.earnpage-modal__submit {
+		background-color: transparent;
 }
