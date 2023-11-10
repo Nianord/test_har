@@ -1146,6 +1146,8 @@ body._lock {
 }
 .earnpage-modal input {
   outline: none;
+  border: none;
+}
 .earnpage-modal input::-moz-placeholder {
   font-size: 12px;
   font-weight: 700;
