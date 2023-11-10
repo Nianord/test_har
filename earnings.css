@@ -1144,12 +1144,12 @@ body._lock {
   border-radius: 6px;
   width: calc(100% - 30px);
 }
-.earnpage-modal__input input::-moz-placeholder {
+.earnpage-modal input::-moz-placeholder {
   font-size: 12px;
   font-weight: 700;
   color: #777e8c;
 }
-.earnpage-modal__input input::placeholder {
+.earnpage-modal input::placeholder {
   font-size: 12px;
   font-weight: 700;
   color: #777e8c;
