@@ -211,7 +211,7 @@ body._lock {
 }
 @media (max-width: 768px) {
   .earnpage-title_l {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 .earnpage-title_m {
@@ -321,7 +321,7 @@ body._lock {
 @media (max-width: 768px) {
   .textblock-main__text {
     padding: 15px 0 35px 0;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media (max-width: 450px) {
@@ -345,7 +345,7 @@ body._lock {
 }
 @media (max-width: 768px) {
   .pic-main__img {
-    width: 220px;
+    width: 280px;
   }
 }
 .pic-main__anim {
@@ -510,11 +510,6 @@ body._lock {
 .textblock-about__title {
   padding: 14px 0;
 }
-@media (max-width: 768px) {
-  .textblock-about__title {
-    padding: 14px 0 8px 0;
-  }
-}
 .textblock-about__text {
   font-size: 16px;
   font-weight: 400;
@@ -523,7 +518,7 @@ body._lock {
 }
 @media (max-width: 768px) {
   .textblock-about__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .textblock-about__cards {
@@ -705,6 +700,14 @@ body._lock {
 @media (max-width: 768px) {
   .earnpage-benefits__item {
     margin: 0 7px;
+  }
+}
+.earnpage-benefits .slick-list {
+  padding: 0 20% 0 2%;
+}
+@media (max-width: 550px) {
+  .earnpage-benefits .slick-list {
+    padding: 0 20% 0 0%;
   }
 }
 .earnpage-benefits .new-slick-prev,
@@ -1159,5 +1162,5 @@ body._lock {
   color: #777e8c;
 }
 .earnpage-modal__submit {
-background-color: transparent;
+  background-color: transparent;
 }
