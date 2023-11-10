@@ -4,21 +4,14 @@ if (!slider.length == 0 && window.innerWidth < 769) {
 	$('.earnpage-slider').slick({
 		dots: false,
 		infinite: true,
-		centerMode: true,
+		centerMode: false,
 		slidesToShow: 2,
-		slidesToScroll: 2,
+		slidesToScroll: 1,
 		prevArrow: "<div class='new-slick-prev harant-icon icon-6-icon-arrow-left'></div>",
 		nextArrow: "<div class='new-slick-next harant-icon icon-7-icon-arrow-right'></div>",
 		responsive: [
 			{
 				breakpoint: 600,
-				settings: {
-					slidesToShow: 1.5,
-					slidesToScroll: 1.5
-				}
-			},
-			{
-				breakpoint: 500,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1
