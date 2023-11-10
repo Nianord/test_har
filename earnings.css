@@ -721,12 +721,14 @@ body._lock {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
 }
 .earnpage-benefits .new-slick-prev:hover, .earnpage-benefits .new-slick-prev:active,
 .earnpage-benefits .new-slick-next:hover,
 .earnpage-benefits .new-slick-next:active {
   color: #1e2139;
   border: 1px solid #1e2139;
+  background-color: transparent;
 }
 .earnpage-benefits .new-slick-next {
   left: calc(50% + 13px);
